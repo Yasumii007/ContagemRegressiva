@@ -1,0 +1,12 @@
+﻿Console.WriteLine("Bem-vindo(a) ao sistema de contagem regressiva, por favor aperte qualquer tecla do seu teclado para cada processo mostrado no prompt");
+Console.WriteLine("");
+Console.WriteLine("Estamos começando, por favor aperte qualquer tecla");
+Console.ReadKey();
+Console.WriteLine("Preparar...");
+Console.ReadKey();
+Console.WriteLine("Apontar...");
+Console.ReadKey();
+Console.BackgroundColor = ConsoleColor.Red;
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.WriteLine("FOGO!");
+Console.ResetColor();
